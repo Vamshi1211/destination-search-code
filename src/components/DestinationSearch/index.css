@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.destination-search {
+  color: #252627;
+  font-family: 'Roboto';
+  font-size: 24px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .destination-search {
+    font-size: 28px;
+    align-self: flex-start;
+    padding-left: 35px;
+  }
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f1f5f9;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  width: 200px;
+  padding-left: 10px;
+  /* margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px; */
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .search-container {
+    align-self: flex-start;
+    margin-left: 35px;
+  }
+}
+/* .img-container {
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+} */
+.input-element {
+  color: #000000;
+  background-color: #f1f5f9;
+  border: none;
+  height: 25px;
+  width: 150px;
+  outline: none;
+  align-self: center;
+}
+.image {
+  height: 20px;
+  width: 20px;
+  align-self: center;
+}
+.destination-items-container {
+  margin-top: 20px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding-left: 0px;
+}
+/* .destination-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid green;
+} */
